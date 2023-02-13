@@ -1,0 +1,10 @@
+m=int(input("enter month of the year from (1-12)="))
+if(m<=7):
+    if(m==2):
+        print("28")
+    else:
+        z=(m%2)+30
+        print(z)
+elif(m>7):
+    k=31-(m%2)
+    print(k)
