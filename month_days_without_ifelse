@@ -1,0 +1,3 @@
+m=int(input("enter month of the year from (1-12)"))
+d=(m<=7)*((m%2)+30)+(m>7)*(31-(m%2))-(m==2)*(2)
+print(d)
